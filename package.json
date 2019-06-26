@@ -4,7 +4,7 @@
   "description": "projeto para transação à API blockcypher",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "yarn jasmine test.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/LeonardoRk/estagioG44/issues"
   },
-  "homepage": "https://github.com/LeonardoRk/estagioG44#readme"
+  "homepage": "https://github.com/LeonardoRk/estagioG44#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-jasmine-phantom": "^3.0.0"
+  }
 }
