@@ -15,7 +15,8 @@ npm start
 ### Teste
 npm test  
   
-Tem-se 4 testes e estão na no arquivo test.js  
+Tem-se 4 testes e estão no arquivo test.js  
 Um teste verifica que o retorno e string  
 Outro teste verifica que a string é um object Json  
 O outro teste verifica que o resultado  tem a chave "tx_ref" diferente de indefinido  
+Um teste é 'hello world'
