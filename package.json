@@ -4,6 +4,7 @@
   "description": "projeto para transação à API blockcypher",
   "main": "main.js",
   "scripts": {
+	"start": "node main.js",
     "test": "yarn jasmine test.js"
   },
   "repository": {

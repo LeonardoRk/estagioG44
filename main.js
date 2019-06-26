@@ -1,4 +1,8 @@
+let API = require('./funcoes.js');
+
+console.log('iniciando main');
 console.log('main\n');
+
 var endereco = "C3qXd3YYRBrZZod5D9GLGhpDNnVfAwpbe2"
 console.log('endereço de envio:' + endereco);
 
@@ -14,21 +18,6 @@ console.log('data:');
 console.log(data);
 console.log("\n\naguardando transação\n");
 
-// recebe como parâmetro valor BCY 
-// retorna a conversão de BCY para Satoshi
-function converteBcySatoshi(bcy){
-	var satoshi = [bcy * (2*10^7)]/0.2;
-	return satoshi;
-}
-
-var url = "https://api.blockcypher.com/v1/bcy/test/faucet?token=" + TOKEN;
-
-var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
-var xhttp = new XMLHttpRequest();
-
-xhttp.onreadystatechange = function(d) {
-  console.log('retorno de transação:');
-  console.log(xhttp.responseText);
-};
-xhttp.open("POST", url, false);
-xhttp.send(JSON.stringify(data));
+let resposta = API.realizaTransacao(TOKEN , data);
+console.log('retorno main:' + resposta);
+console.log('transacao terminou');
