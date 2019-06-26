@@ -1,0 +1,22 @@
+{
+  "name": "estagiog44",
+  "version": "1.0.0",
+  "description": "projeto para transação à API blockcypher",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoRk/estagioG44.git"
+  },
+  "keywords": [
+    "blockcypher"
+  ],
+  "author": "Leonardo Arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoRk/estagioG44/issues"
+  },
+  "homepage": "https://github.com/LeonardoRk/estagioG44#readme"
+}
